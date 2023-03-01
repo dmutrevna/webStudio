@@ -6,8 +6,9 @@
   .our-command {
     display: flex;
     flex-wrap: wrap;
-    /* row-gap: 24px;
-    column-gap: 64px; */
+  }
+
+  .command-description {
     width: calc((100% - 30px) / 2);
   }
 }
