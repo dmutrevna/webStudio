@@ -6,6 +6,7 @@
   .our-command {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 0;
   }
 
   .command-description {
