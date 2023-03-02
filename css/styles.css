@@ -382,7 +382,8 @@ img {
   display: block;
   align-items: center;
   width: 100%;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 72px;
 }
 
 .command-description {
@@ -395,10 +396,6 @@ img {
 .command-text {
   padding: 32px 16px;
   text-align: center;
-}
-
-.command-description:not(:last-child) {
-  margin-bottom: 72px;
 }
 
 .command-soc-link:is(:hover, :focus) {

@@ -10,7 +10,6 @@
 
   .command-description {
     width: calc((100% - 30px) / 2);
-    margin-bottom: 72px;
   }
 
   .command-section {
