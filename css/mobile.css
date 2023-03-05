@@ -2,7 +2,27 @@
   .container {
     max-width: 426px;
   }
-  .our-command:not(:last-child) {
+}
+
+@media screen and (max-width: 767px) {
+  .command-description:not(:last-child) {
     margin-bottom: 72px;
+  }
+  .logo {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .section-about {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .advantage-list > .advantage-subtitle {
+    text-align: start;
+  }
+  .menu-open-mob {
+    display: none;
   }
 }
