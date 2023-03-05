@@ -18,6 +18,7 @@
     display: none;
   }
 }
+
 @media screen and (min-width: 767px) {
   .advantage-list > .advantage-subtitle {
     text-align: start;

@@ -126,7 +126,7 @@ img {
   width: 29px;
   height: 18px;
   background: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: none;
   margin-left: auto;
   padding: 0;
   cursor: pointer;
@@ -172,7 +172,6 @@ img {
   line-height: 1.11;
   color: #ffffff;
   margin: auto;
-
   margin-bottom: 72px;
   max-width: 320px;
 }
@@ -217,10 +216,11 @@ img {
 
 .list-btn-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
   column-gap: 24px;
+  row-gap: 16px;
 }
 
 .navigation-section-btn {
@@ -290,20 +290,26 @@ img {
 }
 /*============================/ABOUT US===========*/
 /*==========================GALLERY=================*/
+@media screen and (max-width: 767px) {
+  .gallery-list:not(:last-child) {
+    margin-bottom: 48px;
+  }
+}
 .gallery-section {
-  padding-top: 72px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .gallery-container {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.gallery-list {
-  width: calc((100% - 72px) / 3);
+.gallery-subtitle {
+  font-size: 20px;
+  text-align: start;
 }
 
 .card-content {
@@ -471,6 +477,7 @@ img {
 .logo-web-light {
   color: #f4f4fd;
 }
+
 .logo-mob-footer > .logo {
   align-items: center;
   margin-bottom: 16px;
@@ -592,7 +599,7 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+  width: 392px;
   min-height: 576px;
   padding: 24px;
   background-color: #fcfcfc;
@@ -831,9 +838,11 @@ footer {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .mob-list-address {
   margin-bottom: 48px;
 }
+
 .mob-link-contact-tel {
   font-weight: 700;
   font-size: 30px;
@@ -842,10 +851,12 @@ footer {
   color: #2e2f42;
   margin-bottom: 40px;
 }
+
 .mob-contact-tel {
   margin-bottom: 40px;
   display: block;
 }
+
 .contact-mob-section > .command-soc-list {
   justify-content: flex-start;
 }
