@@ -320,7 +320,7 @@ img {
   row-gap: 48px;
 }
 .gallery-list {
-  width: 396px;
+  max-width: 396px;
   height: 400px;
 }
 
