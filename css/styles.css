@@ -247,7 +247,7 @@ img {
   margin-bottom: 0;
 }
 .advantage-container > .advantage-list {
-  width: 396px;
+  max-width: 396px;
 }
 
 .advantage-section {
@@ -318,6 +318,10 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+.gallery-list {
+  width: 396px;
+  height: 400px;
 }
 
 .gallery-subtitle {

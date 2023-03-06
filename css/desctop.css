@@ -79,7 +79,7 @@
   .advantage-container > .advantage-list {
     width: calc((100% - 72px) / 4);
     margin-bottom: 0;
-    width: 264px;
+    max-width: 264px;
   }
 
   .advantage-subtitle {

@@ -91,7 +91,7 @@
   .advantage-container > .advantage-list {
     width: calc((100% - 32px) / 2);
     margin-bottom: 0;
-    width: 356px;
+    max-width: 356px;
   }
   .advantage-container {
     display: flex;
