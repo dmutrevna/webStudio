@@ -1,9 +1,11 @@
 @media screen and (min-width: 1200px) {
-  .container {
+  .container,
+  .container-tablet {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
   }
+
   /*============================HEADER===========*/
   .list-address {
     display: flex;
@@ -119,6 +121,7 @@
     padding-bottom: 120px;
   }
   /*============================FOOTER===========*/
+
   .footer-content {
     margin-top: 16px;
     width: 264px;
@@ -145,6 +148,9 @@
   }
   .footer-suptitle {
     margin-top: 0;
+  }
+  .footer-container > .container-tablet {
+    display: flex;
   }
   /*============================GALLERY-PORTFOLIO===========*/
   .gallery-list {

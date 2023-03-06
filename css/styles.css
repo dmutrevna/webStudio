@@ -287,10 +287,14 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  margin: 0;
 }
 
 .section-about {
   padding-bottom: 120px;
+}
+.suptitle-container > .advantage-list {
+  margin-bottom: 0;
 }
 /*============================/ABOUT US===========*/
 /*==========================GALLERY=================*/
@@ -303,7 +307,12 @@ img {
   padding-top: 48px;
   padding-bottom: 48px;
 }
-
+.card-content > .gallery-subtitle {
+  margin-top: 0;
+}
+.card-content > .gallery-text {
+  margin-bottom: 0;
+}
 .gallery-container {
   display: block;
   flex-wrap: wrap;

@@ -2,6 +2,11 @@
   .container {
     max-width: 768px;
   }
+  @media screen and (min-width: 768px) {
+    .container-tablet {
+      max-width: 584px;
+    }
+  }
   /*============================HEADER===========*/
   .list-nav {
     font-weight: 500;
@@ -126,7 +131,6 @@
 
   .footer-tablet-section {
     display: flex;
-    justify-content: center;
   }
   .footer-form {
     display: flex;
@@ -142,6 +146,7 @@
   }
   .footer-subscribe {
     align-items: center;
+    text-align: center;
     margin-top: 72px;
   }
   .footer-form-input {
